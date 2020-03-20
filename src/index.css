@@ -11,3 +11,131 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.tt {
+  /* width: 800px; */
+  height: 15px;
+  position: absolute;
+  background-color: yellow;
+  z-index: 2;
+  top: 500px;
+}
+.kg{
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+
+}
+.ttContainer {
+  
+  width: 800px;
+  height: 756px;
+  position: absolute;
+  background-color: green;
+  position: absolute;
+  
+  
+}
+.animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: rgb(255, 0, 179);
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+}
+.moment-show{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  top:20px;
+  height: 15%;
+  width: 15%;
+  left: 200;
+  z-index: 3;
+  color: white;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  top:20px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgb(208, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+}
+.dot {
+  height: 40px;
+  width: 40px;
+  background-color: sandybrown;
+  border-radius: 40px;
+  display: inline-block;
+}
+.oval {
+  width: 20px;
+  height: 35px;
+  top: 20px;
+  background: rgb(255, 0, 157);
+  border-radius: 100px / 50px;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 9px solid rgb(255, 0, 157);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.rectangle {
+  width: 80px;
+  height: 30px;
+  top: 20px;
+  background: rgb(0, 255, 21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+.falling{
+  position: absolute;
+  z-index: 2;
+}
+.g-o{
+  font-size: 30px;
+}
+.btn-res{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
